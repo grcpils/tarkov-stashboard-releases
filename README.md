@@ -13,6 +13,10 @@
   <a href="https://github.com/grcpils/tarkov-stashboard-releases/releases/latest"><b>Download the latest version</b></a>
 </p>
 
+<p align="center">
+  <img src="screenshots/overview.png" alt="Overview: active quests, maps to play, items to keep" />
+</p>
+
 ---
 
 > Tarkov Stashboard is a fan-made tool. It is not affiliated with, endorsed by, or connected to Battlestate Games. It only reads the game's log files: it never reads game memory, never draws over the game, and never touches the game client.
@@ -46,6 +50,22 @@ The app is not code-signed, so Windows SmartScreen shows this warning the first 
 | **Maps** | Interactive maps with floors, quest markers and extracts. |
 | **Hideout** | A top-down plan of the Hideout. Each module shows its level, what it needs, and whether you can build it. |
 | **Keep list** | Every item your quests and Hideout upgrades need, with quantities, found-in-raid requirements and what you already own. |
+
+<table>
+  <tr>
+    <td><img src="screenshots/quests.png" alt="Quest list with filters by trader and status" /><br /><sub><b>Quests</b>: filters by trader, map and status</sub></td>
+    <td><img src="screenshots/quest.png" alt="Quest page with objectives and the wiki guide" /><br /><sub><b>Quest page</b>: objectives next to the wiki guide</sub></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/maps.png" alt="Interactive Customs map with quest markers" /><br /><sub><b>Maps</b>: floors, quest markers and extracts</sub></td>
+    <td><img src="screenshots/hideout.png" alt="Top-down plan of the Hideout" /><br /><sub><b>Hideout</b>: what you can build right now</sub></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="screenshots/keep-list.png" alt="Keep list with item quantities" /><br /><sub><b>Keep list</b>: every item your quests and Hideout need</sub></td>
+  </tr>
+</table>
+
+<sub>Screenshots show sample progress, not a real profile.</sub>
 
 Also:
 
