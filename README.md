@@ -59,6 +59,10 @@ Prefer not to install anything? Take **`Tarkov-Stashboard-Portable`** instead: a
 
 Works on Windows 10 and 11.
 
+### Uninstall
+
+Open **Windows Settings > Apps > Installed apps**, find Tarkov Stashboard and uninstall it. Your progress is kept. To remove it too, delete the `%APPDATA%TarkovStashboard` folder.
+
 ## Getting started
 
 1. In **Settings**, pick your game mode (PvE or PvP) and your faction.
@@ -73,7 +77,9 @@ Some quests are marked **uncertain**: the app cannot tell whether you have unloc
 
 Tarkov Stashboard only reads the log files the game writes to your disk. It never reads game memory, never draws over the game, and never touches the game client.
 
-Nothing about you leaves your computer. The app only goes online to fetch game data, quest guides and its own updates.
+Nothing about you leaves your computer. Your progress is saved in `%APPDATA%TarkovStashboard`, and the app only goes online to fetch game data, quest guides and its own updates.
+
+To move your progress to another PC, export it from **Settings > Backup** and import it there.
 
 ## Feedback
 
@@ -85,11 +91,13 @@ If a quest looks wrong, try **Settings > Update game data** first.
 
 Tarkov Stashboard only exists thanks to the community:
 
-- [tarkov.dev](https://tarkov.dev) by [the-hideout](https://github.com/the-hideout), for quest, item and Hideout data, icons and interactive maps
-- the [Escape from Tarkov Wiki](https://escapefromtarkov.fandom.com), for quest guides and their images ([CC BY-NC-SA](https://www.fandom.com/licensing))
-- [tarkov-data-overlay](https://github.com/tarkovtracker-org/tarkov-data-overlay) by tarkovtracker-org, for quest corrections
-- the community map authors, each credited under their map in the app
-- [Rajdhani](https://fonts.google.com/specimen/Rajdhani) by Indian Type Foundry, the interface font
+| Project | What comes from it | License |
+|---|---|---|
+| [tarkov.dev](https://tarkov.dev) by [the-hideout](https://github.com/the-hideout) | Quest, item and Hideout data, icons, interactive maps | MIT (code and map settings) |
+| [Escape from Tarkov Wiki](https://escapefromtarkov.fandom.com) (Fandom) | Quest guides and their images, with a link back to each page | [CC BY-NC-SA](https://www.fandom.com/licensing) |
+| [tarkov-data-overlay](https://github.com/tarkovtracker-org/tarkov-data-overlay) by tarkovtracker-org | Quest corrections | MIT |
+| Community map authors, via tarkov.dev | 2D map images, credited under each map in the app | Belongs to each author |
+| [Rajdhani](https://fonts.google.com/specimen/Rajdhani) by Indian Type Foundry | Interface font | SIL Open Font License 1.1 |
 
 None of these projects is affiliated with this app.
 
